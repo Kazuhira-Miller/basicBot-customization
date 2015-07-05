@@ -56,9 +56,9 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "",
+        botName: "Macaco Bot",
         language: "portuguese",
-        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
+        chatLink: "https://rawgit.com/Kazuhira-Miller/basicBot-customization/master/lang/pt.json",
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
         startupEmoji: false, // true or false
@@ -98,7 +98,7 @@
         motdEnabled: false,
         motdInterval: 5,
         motd: "Temporary Message of the Day",
-        filterChat: true,
+        filterChat: false,
         etaRestriction: false,
         welcome: true,
         opLink: null,
