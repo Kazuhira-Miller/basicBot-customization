@@ -1,7 +1,7 @@
 (function () {
     
     //Change this to your GitHub username so you don't have to modify so many things.
-    var fork = "Yemasthui";
+    var fork = "Kazuhira-Miller";
 		
     //Define our function responsible for extending the bot.
     function extend() {
@@ -56,8 +56,8 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot",
-        language: "english",
+        botName: "",
+        language: "portuguese",
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
@@ -66,8 +66,8 @@
         smartSkip: true,
         cmdDeletion: true,
         maximumAfk: 120,
-        afkRemoval: true,
-        maximumDc: 60,
+        afkRemoval: false,
+        maximumDc: 30,
         bouncerPlus: true,
         blacklistEnabled: true,
         lockdownEnabled: false,
@@ -79,8 +79,8 @@
         voteSkipLimit: 10,
         historySkip: false,
         timeGuard: true,
-        maximumSongLength: 10,
-        autodisable: true,
+        maximumSongLength: 07,
+        autodisable: false,
         commandCooldown: 30,
         usercommandsEnabled: true,
         skipPosition: 3,
@@ -109,7 +109,7 @@
         website: null,
         intervalMessages: [],
         messageInterval: 5,
-        songstats: true,
+        songstats: false,
         commandLiteral: "!",
         blacklists: {
             NSFW: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/NSFWlist.json",
